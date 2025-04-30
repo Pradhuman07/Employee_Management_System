@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+*{
+  color: #fff;
+}
+
+body{
+  background-color: #1C1C1C;  /*#1C1C1C*/
+}
+
+/*____________________________________________________________*/
+#taskListScrollBar::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+#taskListScrollBar::-webkit-scrollbar-track {
+  background: #333; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+#taskListScrollBar::-webkit-scrollbar-thumb {
+  background: #555; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+#taskListScrollBar::-webkit-scrollbar-thumb:hover {
+  background: #777; /* Color of the thumb on hover */
+}
+
+/*____________________________________________________________*/
+
+#allTaskScrollBar::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+#allTaskScrollBar::-webkit-scrollbar-track {
+  background: #333; /* Background of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+#allTaskScrollBar::-webkit-scrollbar-thumb {
+  background: #555; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+#allTaskScrollBar::-webkit-scrollbar-thumb:hover {
+  background: #777; /* Color of the thumb on hover */
+} 
