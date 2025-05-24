@@ -5,7 +5,7 @@ import Tasklist from '../TaskList/Tasklist'
 
 const EmployeeDashboard = () => {
   return (
-    <div className='p-6 h-screen'>
+    <div className='lg:p-6 px-3.5 py-2 h-screen'>
         <Header/>
         <TaskSection/>
         <Tasklist/>

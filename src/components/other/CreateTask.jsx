@@ -25,7 +25,7 @@ const CreateTask = () => {
                 <div className='w-3/7 h-[370px] p-8'>
                     <div>
                         <h1 className='text-lg'>Description</h1>
-                        <input className='border-1 w-full h-[220px] rounded-[5px] p-1 px-2' type="text" />
+                        <input className='border-1 w-full h-[220px] rounded-[5px] p-1 px-2 ' type="text" />
                         <button className='text-xl bg-emerald-600 p-2 w-full mt-4 rounded-xl '>Create Task</button>
                     </div>
                 </div>

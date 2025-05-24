@@ -27,6 +27,12 @@ body{
   background: #777; /* Color of the thumb on hover */
 }
 
+@media (max-width:640px) {
+  #taskListScrollBar::-webkit-scrollbar {
+    width: 5px; /* Width of the scrollbar */
+  }
+}
+
 /*____________________________________________________________*/
 
 #allTaskScrollBar::-webkit-scrollbar {
