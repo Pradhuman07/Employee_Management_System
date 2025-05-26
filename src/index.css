@@ -49,3 +49,9 @@ body{
 #allTaskScrollBar::-webkit-scrollbar-thumb:hover {
   background: #777; /* Color of the thumb on hover */
 } 
+
+@media (max-width:640px) {
+  #allTaskScrollBar::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+}
